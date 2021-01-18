@@ -2,8 +2,7 @@ import 'dart:convert';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:http/http.dart' as http;
 
-final String serverToken =
-    'AAAATCduRFw:APA91bFgpQwxfftgmQQb15RIO1RLzLeAoGztAyUlKlm6cj4bO8CdwVDLqwBrhKSl-jpqxMEEIi2WxyqxJPSZQcUICZmcXii75okBZkapF70uUToRbVYjek0oUngjsZiE6k_lNztFKy9s';
+final String serverToken ="<ServerToken from Firebase>";
 final FirebaseMessaging firebaseMessaging = FirebaseMessaging();
 Future<dynamic> myBackgroundMessageHandler(Map<String, dynamic> message) {
   print('on background $message');
