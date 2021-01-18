@@ -1,0 +1,46 @@
+name: chatroom
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.1
+  firebase_core: ^0.5.3
+  firebase_auth: ^0.18.4+1
+  cloud_firestore: ^0.14.4
+  toast: ^0.1.5
+  connectivity: ^2.0.2
+  app_settings: ^4.0.4
+  shared_preferences: ^0.5.12+4
+  flutter_local_notifications: ^3.0.3
+  firebase_messaging: ^7.0.3
+  http: ^0.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Regular.ttf
